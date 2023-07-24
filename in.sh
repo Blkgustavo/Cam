@@ -165,7 +165,7 @@ printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Waiting For Next Pin, Press Ctrl +
 logo1() {
 
 
-BLK!!!!
+print = BLK!!!!.
 
 
 
