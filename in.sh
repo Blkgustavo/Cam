@@ -162,7 +162,14 @@ printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Saved:\e[0m\e[1;77m core/main/save
 printf "\n"
 printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Waiting For Next Pin, Press Ctrl + C to exit...\e[0m\n"
 }
+logo1() {
 
+
+BLK!!!!
+
+
+
+}
 ####### Server start/run #######
 start() {
 if [[ -e "$HOME/hacklock/core/pattern/ip.txt" ]]; then
@@ -245,6 +252,6 @@ done
 }
 
 ####### Restart the tool #######
-banner
+logo
 dependencies
 menu
