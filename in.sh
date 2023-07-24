@@ -105,7 +105,7 @@ else
 printf "\e[1;93m [!] Invalid option!\e[0m\n"
 sleep 1
 clear
-banner
+logo1
 dependencies
 menu
 fi
@@ -252,6 +252,6 @@ done
 }
 
 ####### Restart the tool #######
-logo
+logo1
 dependencies
 menu
